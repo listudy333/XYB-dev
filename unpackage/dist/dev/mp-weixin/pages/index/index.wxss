@@ -1,0 +1,529 @@
+
+.bigcontainer {
+}
+.banner{
+	background-color: #007AFF;
+	border-bottom: 5rpx solid #E4E7ED;
+}
+.banner image{
+	width: 100%;
+}
+/* 功能区 */
+.strip{
+  width:100%;
+  height:10rpx;
+  margin:10rpx 0;
+  
+  background-color: rgb(228,228,228)
+}
+.other{
+  margin-top:10rpx; 
+  background:#fff;
+  padding-top:20rpx;
+  display:flex;
+  flex-wrap:wrap;
+  /* font-family:华文行楷; */
+}
+.item{
+  width:33.3%;
+  text-align:center;
+  font-size:24rpx;
+  color:#666;
+  margin-bottom: 20rpx;
+}
+.item image{
+  width:60rpx;
+  height:60rpx;
+}
+/* 每日一笑 */
+.jokeT{
+  font-family: 华文行楷;
+  font-size: 35rpx;
+  color:#3385FF;
+  width:20%;
+  margin:5rpx;
+  padding: 10rpx;
+  border-radius: 20px;
+  text-align: center;
+}
+.joke{
+  margin:10px;
+  padding:10px;
+  border-radius:5px;
+  border-top:1px solid #DEDEDE;
+  border-left:1px solid #DEDEDE;
+  box-shadow: 2px 2px 2px #C7C7C7;
+}
+.jokeC{
+  text-indent:2em;
+  font-size:28rpx;
+}
+.jokeTime{
+  color:#3385FF;
+  text-align: right;
+  font-size:24rpx;
+}
+.joke .flushI{
+  position: relative;
+  flex: 1;
+  text-align: right;
+}
+.comm{
+	margin-top: 15rpx;
+	width:40rpx;
+	height: 40rpx;
+	display: inline-block;
+	vertical-align: middle;
+	background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADNElEQVRYR+2WT2gcVRzHP7+XmFiqAZGqiGgRS8FcBBeKs13zgm3VitkdJfEgghI8iVB7qIiHpiBS8VAo4k0rGih0wZ31XxtRdrabWVtrvYlFRQ+CFYoHtSCmmfnJ7O7UkOxmZ7cNveTdZub3ft/P+77f+70RrvGQa6zPOsC6Az07kPvs5CazOLgD1R2icndSxIJe0IgPWVzw/anx39MWd08AY6XgGSO8pnDnqgJKeUAH9335xLYfuoH0BGC94AjwrMAHoTJ70s1+ngg85J26N5RwEphEGQX+USPT1Qnn6GoQPQF0W03y3ZbnD6Gyp/GsPOe72fc6zV0TgFjMluv3oPpjQ1hki593fmoHsWYAsdi4V9ummFOIHPfzzu7UALZcP07EXRgmOpGn3o5SbQYx+1Vkqpp3isvnrXAgKbTW/p0JNwzna49kzqcVXB7XKE7C7wSKlUJ2alUA682/BfKCCH+hXFS4HagMbhx2v9iZ+bNfCOsFJ4CH/UJ2xYIvv7BecBB4WeBThcdEORoZKYnqMZCP/75j6MmzmcylfiBsaxvCofCW2u4HLyzN0QCw5fmnUZmNbYoMb0rE1wgzfj57YKxcn4whOlnYDsh6QV1Ff63mtz/VyN8CGGBgNDLhFiLeVuXV+Hj+70CpPu27zju29NVmJPolAYgTxBAmCn+uuLmzaRwY94JjCpOqvFt1s9MJAEZeItLXgQ1JUa7Yk13vz21cGLnhIhod8N3cTBrBdjGXIeCwwNa4BlD+QLh56Ylo2wesV/8mTuoXnEy/AM0+0HQC+BcwwHXLj2NbgLFS8KIIhzHyuD/hfHKVIGjXC9o70GqjqnxbdbP3XwlAswjn94iY7ysFZ65rI0oCxsrBG6LsAz3hF7Y/eqUQfV1G1gvOAVsFOVQpOHvXAqLrZTTuBXMKuwBPiA5WCrnTnUBsqWZ9N+f3AtoVoNmogv2q7BUYATmNalEM50BuRaPbFHEEdioMgbziF5y4q6YaqQDiTM0/nuh5VC1wX5tiKiJmtpJ/4KNUyq2g1ABLk9ojleu5cXizDutNsmjOb7o08ltxanShF+Ekti+AfoT6OgVXU2gdoJMD/wFOZDgwUBUliwAAAABJRU5ErkJggg==) no-repeat;
+	background-size: 100%;
+}
+.loading{
+  margin-top: 15rpx;
+  width:40rpx;
+  height: 40rpx;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-animation: a 1s steps(30) infinite;
+  animation: loading 1s steps(30) infinite;
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADNElEQVRYR+2WT2gcVRzHP7+XmFiqAZGqiGgRS8FcBBeKs13zgm3VitkdJfEgghI8iVB7qIiHpiBS8VAo4k0rGih0wZ31XxtRdrabWVtrvYlFRQ+CFYoHtSCmmfnJ7O7UkOxmZ7cNveTdZub3ft/P+77f+70RrvGQa6zPOsC6Az07kPvs5CazOLgD1R2icndSxIJe0IgPWVzw/anx39MWd08AY6XgGSO8pnDnqgJKeUAH9335xLYfuoH0BGC94AjwrMAHoTJ70s1+ngg85J26N5RwEphEGQX+USPT1Qnn6GoQPQF0W03y3ZbnD6Gyp/GsPOe72fc6zV0TgFjMluv3oPpjQ1hki593fmoHsWYAsdi4V9ummFOIHPfzzu7UALZcP07EXRgmOpGn3o5SbQYx+1Vkqpp3isvnrXAgKbTW/p0JNwzna49kzqcVXB7XKE7C7wSKlUJ2alUA682/BfKCCH+hXFS4HagMbhx2v9iZ+bNfCOsFJ4CH/UJ2xYIvv7BecBB4WeBThcdEORoZKYnqMZCP/75j6MmzmcylfiBsaxvCofCW2u4HLyzN0QCw5fmnUZmNbYoMb0rE1wgzfj57YKxcn4whOlnYDsh6QV1Ff63mtz/VyN8CGGBgNDLhFiLeVuXV+Hj+70CpPu27zju29NVmJPolAYgTxBAmCn+uuLmzaRwY94JjCpOqvFt1s9MJAEZeItLXgQ1JUa7Yk13vz21cGLnhIhod8N3cTBrBdjGXIeCwwNa4BlD+QLh56Ylo2wesV/8mTuoXnEy/AM0+0HQC+BcwwHXLj2NbgLFS8KIIhzHyuD/hfHKVIGjXC9o70GqjqnxbdbP3XwlAswjn94iY7ysFZ65rI0oCxsrBG6LsAz3hF7Y/eqUQfV1G1gvOAVsFOVQpOHvXAqLrZTTuBXMKuwBPiA5WCrnTnUBsqWZ9N+f3AtoVoNmogv2q7BUYATmNalEM50BuRaPbFHEEdioMgbziF5y4q6YaqQDiTM0/nuh5VC1wX5tiKiJmtpJ/4KNUyq2g1ABLk9ojleu5cXizDutNsmjOb7o08ltxanShF+Ekti+AfoT6OgVXU2gdoJMD/wFOZDgwUBUliwAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 100%;
+}
+.loading-normal {
+    -webkit-animation: a 1s steps(8) infinite;
+    animation: loading 1s steps(8) infinite;
+}
+@-webkit-keyframes loading {
+0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+}
+}
+@keyframes loading {
+0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+}
+to {
+        -webkit-transform: rotate(1turn);
+        transform: rotate(1turn);
+}
+}
+/* 天气 */
+.weatherBox{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 45%;
+}
+/* .scroll-x{
+	white-space: nowrap;
+	flex-direction: column;
+}
+.weatherBox .card{
+	padding: 5rpx;
+	width:320rpx;
+	justify-content: center;
+	border: 5rpx solid #007AFF;
+	background-color: #FFFFFF;
+}
+.card image{
+	width: 45rpx;
+	height: 45rpx;
+} */
+.container {
+  position: relative;
+  background: #fff;
+  z-index: 99;
+  width: 100%;
+}
+/* .container .addCity {
+  position: absolute;
+  height: 150rpx;
+  line-height: 150rpx;
+  top: 0;
+  left: 20rpx;
+  font-size: 50rpx;
+  color: #fff;
+  z-index: 999;
+} */
+.container .dotsWrap {
+  position: absolute;
+  width: 750rpx;
+  top: 190rpx;
+  left: 50%;
+  margin-left: -375rpx;
+  z-index: 10;
+}
+.container .dotsWrap .dots {
+  text-align: center;
+  height: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .dotsWrap .dots text {
+  display: inline-block;
+  margin-right: 10rpx;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius: 50%;
+  background: #333;
+}
+.container .dotsWrap .dots text.cur {
+  background: #fff;
+}
+.container .dotsWrap .dots text:last-child {
+  margin-right: 0;
+}
+/* .container swiper {
+  height: 90vh;
+}
+.container swiper .swiper-item {
+  height: 100%;
+} */
+.container .mainContent {
+  position: relative;
+  height: 550rpx;
+  width: 100%;
+}
+.container .mainContent image {
+  position: absolute;
+  height: 550rpx;
+  width:100% ;
+  z-index: -1;
+}
+.container .mainContent .mainInfoWrap {
+  height: 550rpx;
+  width: 100%;
+  padding-top: 140rpx;
+}
+.container .mainContent .mainInfoWrap .address {
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.container .mainContent .mainInfoWrap .address text {
+  color: #fff;
+}
+.container .mainContent .mainInfoWrap .address text.iconfont {
+  font-size: 36rpx;
+  margin-right: 10rpx;
+}
+.container .mainContent .mainInfoWrap .address .updateTime {
+  font-size: 22rpx;
+  color: #fff;
+}
+.container .mainContent .mainInfoWrap .weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 80rpx;
+  text-shadow: 2rpx 2rpx 5rpx #222;
+}
+.container .mainContent .mainInfoWrap .weather .temperature {
+  font-size: 100rpx;
+  font-weight: normal;
+  position: relative;
+}
+.container .mainContent .mainInfoWrap .weather .temperature text {
+  position: absolute;
+  width: 20rpx;
+  height: 20rpx;
+  border: 6rpx solid #fff;
+  border-radius: 50%;
+  right: -20rpx;
+  top: 20rpx;
+  box-shadow: 0 0 2rpx #333;
+}
+.container .mainContent .mainInfoWrap .weather .description {
+  font-size: 34rpx;
+}
+.container .mainContent .mainInfoWrap .weather .range {
+  font-size: 26rpx;
+  margin-top: 20rpx;
+}
+.container .mainContent .mainInfoWrap .weather .tips {
+  font-size: 22rpx;
+  margin-top: 30rpx;
+}
+.container .daysWeather {
+  padding: 40rpx 0 30rpx;
+  background: #fff;
+}
+.container .daysWeather.yin {
+  background: linear-gradient(#92CDD1, #fff);
+}
+.container .daysWeather.qing {
+  background: linear-gradient(#8FDDF1, #fff);
+}
+.container .daysWeather.wu {
+  background: linear-gradient(#D9C28C, #fff);
+}
+.container .daysWeather.xue {
+  background: linear-gradient(#D1D9E4, #fff);
+}
+.container .daysWeather.ye {
+  background: linear-gradient(#75A3B2, #fff);
+}
+.container .daysWeather.yu {
+  background: linear-gradient(#BFC1E8, #fff);
+}
+.container .daysWeather .tabs {
+  display: flex;
+  margin-left: 40rpx;
+}
+.container .daysWeather .tabs text {
+  background: #EDEDED;
+  font-size: 22rpx;
+  margin-right: 20rpx;
+  width: 120rpx;
+  text-align: center;
+  height: 40rpx;
+  line-height: 40rpx;
+  border-radius: 40rpx;
+}
+.container .daysWeather .tabs text.cur {
+  background: #FEF3C3;
+}
+.container .daysWeather .scrollBox {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: 40rpx;
+}
+.container .daysWeather .scrollBox .weatherBox {
+  width: 180rpx;
+  height: 200rpx;
+  display: inline-block;
+  /* border-left: 1rpx solid #fff; */
+}
+.container .daysWeather .scrollBox .weatherBox:last-child {
+  border-right: none;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo {
+  display: flex;
+  height: 200rpx;
+  padding: 10rpx 0;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo image {
+  width: 60rpx;
+  height: 60rpx;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo view text {
+  display: block;
+  text-align: center;
+  font-size: 22rpx;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo view text + text {
+  margin-top: 5rpx;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo text {
+  font-size: 22rpx;
+}
+.container .daysWeather .scrollBox .weatherBox .weatherInfo .iconfont {
+  font-size: 50rpx;
+}
+.container .quotes {
+  height: 10vh;
+  padding: 0 40rpx;
+  border-top: 1rpx solid #EBEBEB;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .quotes text:first-child {
+  align-self: flex-start;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  width: 90%;
+  text-indent: 48rpx;
+  font-size: 24rpx;
+}
+.container .quotes text:last-child {
+  align-self: flex-end;
+  font-size: 24rpx;
+}
+/* 列表 */
+.news{
+  font-family: 华文行楷;
+  color:#FFFFFF;
+  width:20%;
+  margin:5rpx;
+  padding: 10rpx;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #3385FF;
+}
+.news-item{
+  background:#fff;
+}
+.list{
+  background:#fff;
+  padding:20rpx;
+  display:flex;
+  /* margin-top:20rpx; */
+}
+.list-img{
+  width:184rpx;
+  height:184rpx;
+}
+.list-img image{
+  width:184rpx;
+  height:184rpx;
+}
+.list-info{
+  padding-left:20rpx;
+  position:relative;
+  flex:1;
+}
+.title{
+  color:#333;
+  font-size:30rpx;
+  margin-bottom:14rpx;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+.content{
+  font-size:24rpx;
+  color:#666;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-line-clamp:3;
+  -webkit-box-orient:vertical;
+}
+.info-bottom{
+  position:absolute;
+  bottom:-30rpx;
+  
+  left:200rpx; 
+  font-size:24rpx;
+  display:flex;
+}
+.author{
+  color:#3385FF;
+  margin-right:30rpx;
+}
+.num{
+  color:#3385FF;
+}
+/* 风景块 */
+.selection{
+  position:relative;
+  top:50rpx;
+  margin:30rpx 10rpx;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 5%;
+  padding: 20rpx 0rpx;
+/*   
+  border-bottom:5px solid #ddd; */
+}
+.header{
+  width:100%;
+  border-left-width: 2px;
+  border-left-style:solid;
+  border-left-color:green;
+  margin-top:15rpx;
+  display:flex;
+  justify-content:space-between;
+  text-align: center;
+  height:40rpx;
+  padding-left:10rpx;
+  padding-right:10rpx;
+  
+  margin-bottom:10rpx;
+}
+.text{
+  margin-left:15rpx;
+  font-size:35rpx;
+  font-family: 华文行楷;
+}
+.text-all{
+  color:green;
+  font-size:25rpx;
+  font-family: 华文行楷;
+  margin-right: 10px;
+}
+.list-item{
+  height:100%;
+  width:100%;
+  margin: 30rpx 0rpx;
+}
+.list-item-images{
+  
+  height:200rpx;
+  position:relative;
+}
+.list-item-text{
+  height:100%;
+  width:96%;
+  
+  margin-top:20rpx;
+  padding-left:2%;
+  padding-right: 2%;
+}
+.list-item-text-title{
+  font-family: 华文行楷;
+}
+.list-item-text-content{
+  position:relative;
+  font-size:22rpx;
+  color:#999;
+  margin-top:20rpx;
+}
+.video-images{
+
+  display: flex;
+  justify-content: center;
+}
+.video-images video{
+  margin:10rpx;
+  height:470rpx;
+  border-radius: 30rpx;
+}
+.xt{
+  width:240rpx;
+}
+.xt image{
+  position:relative;
+  width:220rpx;
+  height:220rpx;
+  margin:10rpx;
+  align-items: center;
+}
+/* foot页脚 */
+.foot{
+  position: relative;
+  text-align: center;
+  
+  
+  border-bottom: 5rpx solid #3385FF;
+
+  
+
+  background-color: #F3F3F3;
+}
+.foot text{
+  margin: 20rpx;
+  font-size: 24rpx;
+}
+.foot .support{
+  font-family:华文行楷;
+  font-size:20rpx;
+}
+

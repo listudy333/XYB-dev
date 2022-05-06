@@ -1,0 +1,29 @@
+
+.goods-carts {
+
+		display: flex;
+
+		flex-direction: column;
+		position: fixed;
+		left: 0;
+		right: 0;
+
+
+
+
+		bottom: 0;
+}
+.context{
+	padding-bottom:100rpx ;
+}
+.add{
+	position: relative;
+	width: 100%;
+	margin: 20rpx 0rpx;
+}
+.start-time{
+	font-size: 15rpx;
+	left:80%;
+}
+
+

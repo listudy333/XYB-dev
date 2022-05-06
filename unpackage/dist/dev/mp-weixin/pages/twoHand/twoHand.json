@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "二手",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-section": "/components/uni-section/uni-section",
+    "uni-notice-bar": "/uni_modules/uni-notice-bar/components/uni-notice-bar/uni-notice-bar",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab"
+  }
+}

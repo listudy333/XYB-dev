@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.selected_view {
+  position: relative;
+  top: 25rpx;
+  display: inline-block;
+  height: 70rpx;
+}
+.scroll-view_H {
+  white-space: nowrap;
+  width: 92%;
+  margin: 0 auto;
+  height: 200rpx;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid white;
+  margin-top: -60rpx;
+  line-height: 200rpx;
+}
+.scroll-view-item_H {
+  /* position: relative; */
+  display: inline-block;
+  width: 60%;
+  height: 130rpx;
+  line-height: 300rpx;
+  text-align: center;
+  font-size: 13px;
+  text-align: left;
+  line-height: 40rpx;
+  box-shadow: 3px 3px #8c8c8c;
+  border-radius: 7px;
+}
+.gender {
+  width: 70rpx;
+  height: 70rpx;
+  -webkit-transform: translateY(35rpx);
+          transform: translateY(35rpx);
+  padding-left: 10rpx;
+  z-index: 20;
+}
+.text1 {
+  font-size: 25rpx;
+  font-family: 楷体;
+  margin: 0rpx;
+  padding: 0rpx;
+  /* display: -webkit-box;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1 */
+}
+.background {
+  /* position: absolute; */
+  /* text-align: center;
+	left: 50%; */
+  width: 70rpx;
+  height: 70rpx;
+  -webkit-transform: translateY(35rpx);
+          transform: translateY(35rpx);
+  z-index: 19;
+}
+.selected_01 {
+  margin-left: 15px;
+}
+.selected_02 {
+  margin-left: 15px;
+}
+.selected_view {
+  line-break: loose;
+  white-space: pre;
+  margin-left: 10px;
+}
+.selected_view text {
+  font-size: 12px;
+}
+

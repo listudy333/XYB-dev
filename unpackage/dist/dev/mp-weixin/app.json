@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/twoHand/twoHand",
+    "pages/mine2/mine2",
+    "pages/index/pick-up/pick-up",
+    "pages/index/lost-found/lost-found",
+    "pages/index/course-spend/course-spend",
+    "components/head/head",
+    "pages/index/pick-up/card/card",
+    "pages/mine/myOrders/myOrders",
+    "pages/twoHand/release/release",
+    "pages/twoHand/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "校园帮",
+    "navigationBarBackgroundColor": "#3385FF",
+    "backgroundColor": "#3385FF"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#3385FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabBar/index_1.png",
+        "selectedIconPath": "static/tabBar/index_2.png"
+      },
+      {
+        "pagePath": "pages/twoHand/twoHand",
+        "text": "二手",
+        "iconPath": "static/tabBar/hand_1.png",
+        "selectedIconPath": "static/tabBar/hand_2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/tabBar/mine_1.png",
+        "selectedIconPath": "static/tabBar/mine_2.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {}
+}

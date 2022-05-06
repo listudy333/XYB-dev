@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.container {
+  margin: 20rpx 20rpx;
+  padding: 20rpx 20rpx;
+  background-color: #3385FF;
+  border-radius: 35rpx;
+}
+.container .images {
+  text-align: center;
+  width: 100%;
+  height: 500rpx;
+  background-color: #FFFFFF;
+  border-radius: 25rpx;
+  padding: 30rpx;
+  margin: 10rpx 0rpx;
+}
+.container .images .swiper-box {
+  width: 100%;
+  height: 100%;
+}
+.container .images .swiper-box .swiper-item {
+  border-radius: 20rpx;
+}
+.container .images .swiper-box .swiper-item image {
+  border-radius: 20rpx;
+}
+.container .intrduce {
+  padding: 10rpx 5rpx;
+  border-radius: 35rpx;
+  background-color: #ffffff;
+}
+.container .intrduce .descript {
+  font-weight: 700;
+  text-indent: 2em;
+  margin: 30rpx 10rpx;
+}
+.container .seller {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.container .imageP {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.container .imageView {
+  width: 130rpx;
+  height: 130rpx;
+}
+.container .block {
+  flex: 1;
+}
+.goods-carts {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
